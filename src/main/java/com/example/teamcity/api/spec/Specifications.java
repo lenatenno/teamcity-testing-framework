@@ -1,7 +1,7 @@
-package com.example.teamcity.spec;
+package com.example.teamcity.api.spec;
 
-import com.example.teamcity.config.Config;
-import com.example.teamcity.models.User;
+import com.example.teamcity.api.config.Config;
+import com.example.teamcity.api.models.User;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
